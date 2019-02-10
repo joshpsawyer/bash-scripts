@@ -26,7 +26,8 @@ else
 		mkdir "$2/doc"
 		mkdir "$2/results"
 		touch "$2/README.md"
-		exit 0
 	fi
 fi
+echo ""
+echo "/$2/ succesfully structured as a '$1' project"
 exit 0
